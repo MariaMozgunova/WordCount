@@ -47,6 +47,7 @@ int main(int argc, char* argv[]) {
 
     char cur = '\0';
     char prev = '\n';
+    
     while ((cur = fgetc(fp)) != EOF) {
         bytes++;
         if (isspace(prev) == 0 && isspace(cur) != 0) {
@@ -62,7 +63,7 @@ int main(int argc, char* argv[]) {
         lines++;
         words++;
     }
-    printf("%d %d %d", B, L, W);
+
     if (B == 1) {
         printf("Number of bytes: %d\n", bytes);
     } 
