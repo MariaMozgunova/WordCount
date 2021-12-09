@@ -28,7 +28,7 @@ jobs:
 
     - name: Test
       run: |
-        cd build/tests_hw1 && ls
+        cd build && ls && .\tests_hw1
 
     - name: Setup python
       uses: actions/setup-python@v2
