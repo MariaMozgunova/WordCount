@@ -1,4 +1,7 @@
-<!-- TABLE OF CONTENTS -->
+![Testing](https://github.com/MariaMozgunova/WordCount/actions/workflows/run_tests.yaml/badge.svg)
+
+
+
 <details open="open">
   <summary>Содержание</summary>
   <ol>
