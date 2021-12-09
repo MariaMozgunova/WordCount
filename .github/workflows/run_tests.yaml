@@ -31,4 +31,4 @@ jobs:
 
     - name: Make .exe file
       run: |
-        gcc WordCount.c -o WordCount.exe && ls
+        gcc WordCount.c -o WordCount.exe 
