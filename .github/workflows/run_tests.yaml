@@ -1,8 +1,8 @@
 name: Testing
 
 on:
-  push:
-  pull_request:
+  push: [master]
+  pull_request: [master]
 
 jobs:
   build:
@@ -28,4 +28,8 @@ jobs:
 
     - name: Test
       run: |
-        cd build && ./tests_hw1
+        ./build/tests_hw1
+
+    - name: Make .exe file
+      run: |
+        gcc WordCount.c
