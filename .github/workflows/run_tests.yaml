@@ -29,7 +29,8 @@ jobs:
     - name: Test
       run: |
         cd build
-        ctest -C Debug --output-on-failure --verbose
+        ls
+        tests_hw1.exe
 
     - name: Setup python
       uses: actions/setup-python@v2
